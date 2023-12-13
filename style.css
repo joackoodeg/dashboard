@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:  1px 1px 2px #474747;
+}
+
+h1,p{
+    padding: 0.5em;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.time{
+    align-self: center;
+}
+
+div#crypto{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+div#crypto-top{
+    display: flex;
+    align-items: center;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
+}
+
+div#crypto > p {
+    margin: 0;
+    padding: 0.3em;
+}
