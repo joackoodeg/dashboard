@@ -34,7 +34,7 @@ main{
     justify-content: space-between;
 }
 
-h1.time{
+h1#time{
     align-self: center;
 }
 
@@ -50,6 +50,7 @@ div#crypto-top{
 
 div#crypto-top > span {
     margin-left: 10px;
+    font-size: 1.3rem;
 }
 
 div#crypto > p {

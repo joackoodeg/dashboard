@@ -34,3 +34,17 @@ fetch("https://api.coingecko.com/api/v3/coins/bitcoin")
     .catch(err => {
         console.log(err)
     })
+
+    function getTime(){
+        let currentDate = new Date();
+        let am_pm = currentDate.toLocaleTimeString("en-us", {timeStyle: "short"});
+        document.getElementById("time").textContent = `
+            ${am_pm}
+        `
+    }
+
+    setInterval(getTime,1000);
+
+navigator.geolocation.getCurrentPosition(position => {
+    console.log(position)
+})
